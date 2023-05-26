@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 334
-  Top = 147
+  Left = 186
+  Top = 159
   Width = 708
   Height = 535
   Caption = 'Form1'
@@ -235,6 +235,14 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 10
   end
+  object btn6: TButton
+    Left = 592
+    Top = 120
+    Width = 75
+    Height = 25
+    Caption = 'btn6'
+    TabOrder = 11
+  end
   object ZConnection1: TZConnection
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
@@ -244,7 +252,7 @@ object Form1: TForm1
     Database = 'db_lsp'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'C:\Users\Home-PC\Videos\2023\BAHAN-NGAJAR\Koneksi\libmysql.dll'
+    LibraryLocation = 'C:\Users\Home-PC\Videos\2023\BAHAN-NGAJAR\koneksi4N\libmysql.dll'
     Left = 160
     Top = 336
   end
